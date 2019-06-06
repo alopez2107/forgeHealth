@@ -1,0 +1,1217 @@
+<!DOCTYPE html>
+<!-- saved from url=(0083)https://kp.frdpcloud.com/admin/#properties/managedUser_systemKpexternalfrdsAccount/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>OpenIDM</title>
+
+<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="main" src="./OpenIDM_files/main.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/commons/ui/common/util/Constants" src="./OpenIDM_files/Constants.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/commons/ui/common/main/Configuration" src="./OpenIDM_files/Configuration.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/openidm/ui/common/util/Constants" src="./OpenIDM_files/Constants(1).js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/openidm/ui/common/delegates/ConfigDelegate" src="./OpenIDM_files/ConfigDelegate.js"></script><style type="text/css"></style><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="config/AppConfiguration" src="./OpenIDM_files/AppConfiguration.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/commons/ui/common/main/ViewManager" src="./OpenIDM_files/ViewManager.js"></script><link rel="icon" type="image/x-icon" href="https://kp.frdpcloud.com/admin/favicon.ico?v=6.5.0"><link rel="shortcut icon" type="image/x-icon" href="https://kp.frdpcloud.com/admin/favicon.ico?v=6.5.0"><link rel="stylesheet" type="text/css" href="./OpenIDM_files/bootstrap-3.3.7-custom.css"><link rel="stylesheet" type="text/css" href="./OpenIDM_files/structure.css"><link rel="stylesheet" type="text/css" href="./OpenIDM_files/theme.css"><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/commons/ui/common/components/LoginHeader" src="./OpenIDM_files/LoginHeader.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="bootstrap" src="./OpenIDM_files/bootstrap-3.3.7-custom.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/openidm/ui/admin/delegates/MaintenanceDelegate" src="./OpenIDM_files/MaintenanceDelegate.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/openidm/ui/admin/delegates/SchedulerDelegate" src="./OpenIDM_files/SchedulerDelegate.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/openidm/ui/admin/dashboard/Dashboard" src="./OpenIDM_files/Dashboard.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/openidm/ui/common/util/BootstrapDialogUtils" src="./OpenIDM_files/BootstrapDialogUtils.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/openidm/ui/admin/util/AdminAbstractView" src="./OpenIDM_files/AdminAbstractView.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/openidm/ui/admin/dashboard/DashboardWidgetLoader" src="./OpenIDM_files/DashboardWidgetLoader.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/openidm/ui/admin/dashboard/DashboardUtils" src="./OpenIDM_files/DashboardUtils.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/commons/ui/common/util/AutoScroll" src="./OpenIDM_files/AutoScroll.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="dragula" src="./OpenIDM_files/dragula-3.6.7-min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/openidm/ui/common/dashboard/widgets/MemoryUsageWidget" src="./OpenIDM_files/MemoryUsageWidget.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/openidm/ui/common/dashboard/widgets/CPUUsageWidget" src="./OpenIDM_files/CPUUsageWidget.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/openidm/ui/common/dashboard/widgets/FullHealthWidget" src="./OpenIDM_files/FullHealthWidget.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/openidm/ui/admin/dashboard/widgets/MappingReconResultsWidget" src="./OpenIDM_files/MappingReconResultsWidget.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/openidm/ui/admin/dashboard/widgets/ResourceListWidget" src="./OpenIDM_files/ResourceListWidget.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/openidm/ui/common/dashboard/widgets/QuickStartWidget" src="./OpenIDM_files/QuickStartWidget.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/openidm/ui/admin/dashboard/widgets/FrameWidget" src="./OpenIDM_files/FrameWidget.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/openidm/ui/admin/dashboard/widgets/RelationshipWidget" src="./OpenIDM_files/RelationshipWidget.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/openidm/ui/admin/dashboard/widgets/ClusterStatusWidget" src="./OpenIDM_files/ClusterStatusWidget.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/openidm/ui/admin/dashboard/widgets/AuditDataOverTimeWidget" src="./OpenIDM_files/AuditDataOverTimeWidget.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/openidm/ui/admin/dashboard/widgets/ManagedObjectsWidget" src="./OpenIDM_files/ManagedObjectsWidget.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/openidm/ui/admin/dashboard/widgets/SocialRegistrationOverTimeWidget" src="./OpenIDM_files/SocialRegistrationOverTimeWidget.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/openidm/ui/admin/dashboard/widgets/SocialLoginCountWidget" src="./OpenIDM_files/SocialLoginCountWidget.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/openidm/ui/admin/dashboard/widgets/MetricsWidget" src="./OpenIDM_files/MetricsWidget.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/openidm/ui/admin/dashboard/widgets/GraphWidget" src="./OpenIDM_files/GraphWidget.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/openidm/ui/admin/dashboard/widgets/CounterWidget" src="./OpenIDM_files/CounterWidget.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/openidm/ui/admin/dashboard/widgets/HistoricReportWidget" src="./OpenIDM_files/HistoricReportWidget.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="bootstrap-dialog" src="./OpenIDM_files/bootstrap-dialog-1.34.4-min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/openidm/ui/common/dashboard/widgets/AbstractWidget" src="./OpenIDM_files/AbstractWidget.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/openidm/ui/common/delegates/SystemHealthDelegate" src="./OpenIDM_files/SystemHealthDelegate.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/openidm/ui/admin/delegates/ReconDelegate" src="./OpenIDM_files/ReconDelegate.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/commons/ui/common/util/DateUtil" src="./OpenIDM_files/DateUtil.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/openidm/ui/admin/delegates/SyncDelegate" src="./OpenIDM_files/SyncDelegate.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/openidm/ui/admin/delegates/ConnectorDelegate" src="./OpenIDM_files/ConnectorDelegate.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/openidm/ui/admin/util/ConnectorUtils" src="./OpenIDM_files/ConnectorUtils.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/commons/ui/common/util/BackgridUtils" src="./OpenIDM_files/BackgridUtils.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="faiconpicker" src="./OpenIDM_files/fontawesome-iconpicker-1.0.0-min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/openidm/ui/common/delegates/ResourceDelegate" src="./OpenIDM_files/ResourceDelegate.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/openidm/ui/admin/util/AdminUtils" src="./OpenIDM_files/AdminUtils.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/openidm/ui/admin/managed/schema/util/SchemaUtils" src="./OpenIDM_files/SchemaUtils.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/openidm/ui/admin/dashboard/widgets/util/RelationshipWidget/RadialLayout" src="./OpenIDM_files/RadialLayout.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/openidm/ui/admin/dashboard/widgets/util/RelationshipWidget/CollapsibleTreeLayout" src="./OpenIDM_files/CollapsibleTreeLayout.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="moment" src="./OpenIDM_files/moment-2.20.1-min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/openidm/ui/admin/util/ClusterUtils" src="./OpenIDM_files/ClusterUtils.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/openidm/ui/admin/delegates/AuditDelegate" src="./OpenIDM_files/AuditDelegate.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/openidm/ui/common/util/QueryFilterEditor" src="./OpenIDM_files/QueryFilterEditor.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/openidm/ui/admin/util/SpinnerUtil" src="./OpenIDM_files/SpinnerUtil.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/openidm/ui/admin/dashboard/widgets/util/TimezoneUtil" src="./OpenIDM_files/TimezoneUtil.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/openidm/ui/admin/mapping/util/ReconFailures/ReconFailuresGridView" src="./OpenIDM_files/ReconFailuresGridView.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="backgrid" src="./OpenIDM_files/backgrid.min-0.3.5-min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="d3" src="./OpenIDM_files/d3-3.5.5-min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/openidm/ui/common/util/BackgridUtils" src="./OpenIDM_files/BackgridUtils(1).js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/openidm/ui/admin/delegates/MetricsDelegate" src="./OpenIDM_files/MetricsDelegate.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/openidm/ui/admin/delegates/ReportDelegate" src="./OpenIDM_files/ReportDelegate.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="cola" src="./OpenIDM_files/cola-3.3.3-min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/openidm/ui/common/util/HandlebarHelperUtils" src="./OpenIDM_files/HandlebarHelperUtils.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/openidm/ui/admin/mapping/util/MappingUtils" src="./OpenIDM_files/MappingUtils.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/commons/ui/common/backgrid/Backgrid" src="./OpenIDM_files/Backgrid.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/commons/ui/common/backgrid/extension/ThemeableServerSideFilter" src="./OpenIDM_files/ThemeableServerSideFilter.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/openidm/ui/common/delegates/SchemaDelegate" src="./OpenIDM_files/SchemaDelegate.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="xdate" src="./OpenIDM_files/xdate-0.8-min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/openidm/ui/admin/delegates/ClusterDelegate" src="./OpenIDM_files/ClusterDelegate.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/openidm/ui/admin/util/SchedulerUtils" src="./OpenIDM_files/SchedulerUtils.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/openidm/ui/common/util/FilterEditor" src="./OpenIDM_files/FilterEditor.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/openidm/ui/common/delegates/ScriptDelegate" src="./OpenIDM_files/ScriptDelegate.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/commons/ui/common/main/AbstractCollection" src="./OpenIDM_files/AbstractCollection.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/openidm/ui/common/delegates/SearchDelegate" src="./OpenIDM_files/SearchDelegate.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="dimple" src="./OpenIDM_files/dimple-2.1.2-min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="calHeatmap" src="./OpenIDM_files/cal-heatmap-3.6.2-min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="backbone.paginator" src="./OpenIDM_files/backbone.paginator.min-2.0.2-min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="backgrid-filter" src="./OpenIDM_files/backgrid-filter.min-0.3.5-min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="backgrid-paginator" src="./OpenIDM_files/backgrid-paginator.min-0.3.5-min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/openidm/ui/admin/mapping/MappingListView" src="./OpenIDM_files/MappingListView.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/openidm/ui/admin/mapping/AddMappingView" src="./OpenIDM_files/AddMappingView.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/openidm/ui/admin/mapping/MapResourceView" src="./OpenIDM_files/MapResourceView.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/openidm/ui/admin/mapping/MappingBaseView" src="./OpenIDM_files/MappingBaseView.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/openidm/ui/admin/mapping/util/MappingAdminAbstractView" src="./OpenIDM_files/MappingAdminAbstractView.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/openidm/ui/admin/util/ReconDetailsView" src="./OpenIDM_files/ReconDetailsView.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/openidm/ui/admin/util/LinkQualifierUtils" src="./OpenIDM_files/LinkQualifierUtils.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="bootstrap-tabdrop" src="./OpenIDM_files/bootstrap-tabdrop-1.0.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/openidm/ui/admin/mapping/PropertiesView" src="./OpenIDM_files/PropertiesView.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/openidm/ui/admin/mapping/properties/LinkQualifiersView" src="./OpenIDM_files/LinkQualifiersView.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/openidm/ui/admin/mapping/properties/MappingAssignmentsView" src="./OpenIDM_files/MappingAssignmentsView.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/openidm/ui/admin/mapping/properties/AttributesGridView" src="./OpenIDM_files/AttributesGridView.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/openidm/ui/admin/util/InlineScriptEditor" src="./OpenIDM_files/InlineScriptEditor.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/openidm/ui/admin/util/QuickMappingView" src="./OpenIDM_files/QuickMappingView.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/openidm/ui/admin/util/FilterEvaluator" src="./OpenIDM_files/FilterEvaluator.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/openidm/ui/admin/mapping/properties/AddPropertyMappingDialog" src="./OpenIDM_files/AddPropertyMappingDialog.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/openidm/ui/admin/mapping/properties/EditPropertyMappingDialog" src="./OpenIDM_files/EditPropertyMappingDialog.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="libs/codemirror/lib/codemirror" src="./OpenIDM_files/codemirror.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="libs/codemirror/mode/groovy/groovy" src="./OpenIDM_files/groovy.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="libs/codemirror/mode/javascript/javascript" src="./OpenIDM_files/javascript.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="libs/codemirror/addon/display/placeholder" src="./OpenIDM_files/placeholder.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/openidm/ui/admin/util/WorkflowWidget" src="./OpenIDM_files/WorkflowWidget.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/openidm/ui/admin/delegates/WorkflowDelegate" src="./OpenIDM_files/WorkflowDelegate.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/openidm/ui/admin/mapping/util/LinkQualifierFilterEditor" src="./OpenIDM_files/LinkQualifierFilterEditor.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/openidm/ui/admin/mapping/BehaviorsView" src="./OpenIDM_files/BehaviorsView.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/openidm/ui/admin/util/Scheduler" src="./OpenIDM_files/Scheduler.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/openidm/ui/admin/mapping/behaviors/PoliciesView" src="./OpenIDM_files/PoliciesView.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/openidm/ui/admin/mapping/behaviors/SituationalEventScriptsView" src="./OpenIDM_files/SituationalEventScriptsView.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/openidm/ui/admin/mapping/behaviors/ReconciliationScriptView" src="./OpenIDM_files/ReconciliationScriptView.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/openidm/ui/admin/mapping/behaviors/SingleRecordReconciliationView" src="./OpenIDM_files/SingleRecordReconciliationView.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="cron" src="./OpenIDM_files/jquery-cron-f831f2.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/openidm/ui/admin/mapping/behaviors/PoliciesDialogView" src="./OpenIDM_files/PoliciesDialogView.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/openidm/ui/admin/mapping/util/MappingScriptsView" src="./OpenIDM_files/MappingScriptsView.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/openidm/ui/admin/mapping/behaviors/SingleRecordReconciliationGridView" src="./OpenIDM_files/SingleRecordReconciliationGridView.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/openidm/ui/admin/util/ScriptList" src="./OpenIDM_files/ScriptList.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="org/forgerock/openidm/ui/admin/util/ScriptDialog" src="./OpenIDM_files/ScriptDialog.js"></script></head>
+
+<body style="display: none; padding-right: 0px;" class="footer-deep modal-open">
+
+<div id="messages" class="logged-user"></div>
+<div id="wrapper" aria-busy="false"><div id="default-base" class="base-wrapper">
+
+    <div id="menu" class="menubar"><nav id="mainNavHolder" class="navbar navbar-default navbar-static-top navbar-inverse" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mainNavBar" aria-expanded="false" aria-controls="navbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <ul class="nav list-unstyled navbar-admin">
+                <li id="navbarBrand">
+                    <a href="https://kp.frdpcloud.com/admin/#" title="ForgeRock">
+                        <img style="" src="./OpenIDM_files/logo-horizontal-white.png" alt="ForgeRock">
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div id="mainNavBar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-admin">
+                <li class="   dropdown ">
+                    <a title="Dashboards" href="https://kp.frdpcloud.com/admin/#" class=" dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                        <i class="fa fa-dashboard"></i>
+                        
+                            <span class="hidden-sm">Dashboards</span> <span class="caret"></span>
+                    </a>
+                        <ul class="dropdown-menu" role="menu">
+                                        <li class=" ">
+                                            <a title="Quick Start" href="https://kp.frdpcloud.com/admin/#dashboard/0" class=" ">
+                                                
+                                                
+                                                    Quick Start
+                                            </a>
+                                        </li>
+                                        <li class=" ">
+                                            <a title="System Monitoring" href="https://kp.frdpcloud.com/admin/#dashboard/1" class=" ">
+                                                
+                                                
+                                                    System Monitoring
+                                            </a>
+                                        </li>
+                                        <li class=" ">
+                                            <a title="Resource Report" href="https://kp.frdpcloud.com/admin/#dashboard/2" class=" ">
+                                                
+                                                
+                                                    Resource Report
+                                            </a>
+                                        </li>
+                                        <li class=" ">
+                                            <a title="Business Report" href="https://kp.frdpcloud.com/admin/#dashboard/3" class=" ">
+                                                
+                                                
+                                                    Business Report
+                                            </a>
+                                        </li>
+                                    <li role="separator" class="divider"></li>
+                                        <li class=" ">
+                                            <a title="New Dashboard" href="https://kp.frdpcloud.com/admin/#newDashboard/" class=" ">
+                                                <i class="fa fa-plus"></i>
+                                                
+                                                    New Dashboard
+                                            </a>
+                                        </li>
+                                        <li class=" ">
+                                            <a title="Manage Dashboards" href="https://kp.frdpcloud.com/admin/#manageDashboards/" class=" ">
+                                                <i class="fa fa-list"></i>
+                                                
+                                                    Manage Dashboards
+                                            </a>
+                                        </li>
+                        </ul>
+                </li>
+                <li class="   dropdown ">
+                    <a title="Configure" href="https://kp.frdpcloud.com/admin/#" class=" dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                        <i class="fa fa-wrench"></i>
+                        
+                            <span class="hidden-sm">Configure</span> <span class="caret"></span>
+                    </a>
+                        <ul class="dropdown-menu" role="menu">
+                                        <li class=" ">
+                                            <a title="Connectors" href="https://kp.frdpcloud.com/admin/#connectors/" class=" ">
+                                                <i class="fa fa-cubes"></i>
+                                                
+                                                    Connectors
+                                            </a>
+                                        </li>
+                                        <li class=" ">
+                                            <a title="Managed Objects" href="https://kp.frdpcloud.com/admin/#managed/" class=" ">
+                                                <i class="fa fa-th"></i>
+                                                
+                                                    Managed Objects
+                                            </a>
+                                        </li>
+                                        <li class=" ">
+                                            <a title="Mappings" href="https://kp.frdpcloud.com/admin/#mapping/" class=" ">
+                                                <i class="fa fa-map-marker"></i>
+                                                
+                                                    Mappings
+                                            </a>
+                                        </li>
+                                        <li class=" ">
+                                            <a title="Schedules" href="https://kp.frdpcloud.com/admin/#scheduler/" class=" ">
+                                                <i class="fa fa-calendar"></i>
+                                                
+                                                    Schedules
+                                            </a>
+                                        </li>
+                                        <li class=" ">
+                                            <a title="Authentication" href="https://kp.frdpcloud.com/admin/#authentication/" class=" ">
+                                                <i class="fa fa-user"></i>
+                                                
+                                                    Authentication
+                                            </a>
+                                        </li>
+                                        <li class=" ">
+                                            <a title="Social ID Providers" href="https://kp.frdpcloud.com/admin/#social/" class=" ">
+                                                <i class="fa fa-users"></i>
+                                                
+                                                    Social ID Providers
+                                            </a>
+                                        </li>
+                                        <li class=" ">
+                                            <a title="Email Settings" href="https://kp.frdpcloud.com/admin/#emailsettings/" class=" ">
+                                                <i class="fa fa-envelope"></i>
+                                                
+                                                    Email Settings
+                                            </a>
+                                        </li>
+                                        <li class=" ">
+                                            <a title="Progressive Profile" href="https://kp.frdpcloud.com/admin/#progressiveProfileForms/" class=" ">
+                                                <i class="fa fa-list"></i>
+                                                
+                                                    Progressive Profile
+                                            </a>
+                                        </li>
+                                        <li class=" ">
+                                            <a title="Terms &amp; Conditions" href="https://kp.frdpcloud.com/admin/#termsAndConditions/" class=" ">
+                                                <i class="fa fa-check-square-o"></i>
+                                                
+                                                    Terms &amp; Conditions
+                                            </a>
+                                        </li>
+                                        <li class=" ">
+                                            <a title="Security Questions" href="https://kp.frdpcloud.com/admin/#kba/" class=" ">
+                                                <i class="fa fa-list-ol"></i>
+                                                
+                                                    Security Questions
+                                            </a>
+                                        </li>
+                                        <li class=" ">
+                                            <a title="System Preferences" href="https://kp.frdpcloud.com/admin/#settings/" class=" ">
+                                                <i class="fa fa-cog"></i>
+                                                
+                                                    System Preferences
+                                            </a>
+                                        </li>
+                                    <li role="separator" class="divider"></li>
+                                        <li class="dropdown-header ">User Self-Service</li>
+                                        <li class=" ">
+                                            <a title="User Registration" href="https://kp.frdpcloud.com/admin/#selfservice/userregistration/" class=" ">
+                                                <i class="fa fa-toggle-off text-danger"></i>
+                                                
+                                                    User Registration
+                                            </a>
+                                        </li>
+                                        <li class=" ">
+                                            <a title="Password Reset" href="https://kp.frdpcloud.com/admin/#selfservice/passwordreset/" class=" ">
+                                                <i class="fa fa-toggle-off text-danger"></i>
+                                                
+                                                    Password Reset
+                                            </a>
+                                        </li>
+                                        <li class=" ">
+                                            <a title="Forgotten Username" href="https://kp.frdpcloud.com/admin/#selfservice/forgotUsername/" class=" ">
+                                                <i class="fa fa-toggle-off text-danger"></i>
+                                                
+                                                    Forgotten Username
+                                            </a>
+                                        </li>
+                        </ul>
+                </li>
+                <li class="   dropdown ">
+                    <a title="Manage" href="https://kp.frdpcloud.com/admin/#" class=" dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                        <i class="fa fa-cogs"></i>
+                        
+                            <span class="hidden-sm">Manage</span> <span class="caret"></span>
+                    </a>
+                        <ul class="dropdown-menu" role="menu">
+                                        <li class="dropdown-header ">data</li>
+                                        <li class="navigation-managed-object ">
+                                            <a title="user" href="https://kp.frdpcloud.com/admin/#resource/managed/user/list/" class=" ">
+                                                <i class="fa fa-user"></i>
+                                                
+                                                    user
+                                            </a>
+                                        </li>
+                                        <li class="navigation-managed-object ">
+                                            <a title="role" href="https://kp.frdpcloud.com/admin/#resource/managed/role/list/" class=" ">
+                                                <i class="fa fa-check-square-o"></i>
+                                                
+                                                    role
+                                            </a>
+                                        </li>
+                                        <li class="navigation-managed-object ">
+                                            <a title="assignment" href="https://kp.frdpcloud.com/admin/#resource/managed/assignment/list/" class=" ">
+                                                <i class="fa fa-key"></i>
+                                                
+                                                    assignment
+                                            </a>
+                                        </li>
+                        </ul>
+                </li>
+            </ul>
+
+            <ul id="loginContent" class="nav navbar-nav navbar-right">
+                <li class="   dropdown ">
+                    <a title="" href="https://kp.frdpcloud.com/admin/#api" class=" dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                        <i class="fa fa-question-circle"></i>
+                        
+                            <span class="hidden-sm"></span> <span class="caret"></span>
+                    </a>
+                        <ul class="dropdown-menu" role="menu">
+                                        <li class=" ">
+                                            <a title="API Explorer" href="https://kp.frdpcloud.com/admin/#apiExplorer" class=" ">
+                                                <i class="fa fa-code"></i>
+                                                
+                                                    API Explorer
+                                            </a>
+                                        </li>
+                        </ul>
+                </li>
+
+                <li class="dropdown">
+                    <a href="https://kp.frdpcloud.com/admin/#" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle" data-toggle="dropdown">
+                        <i class="user-avatar fa fa-user bg-primary"></i>
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu" role="menu" id="navDropdownMenu">
+
+                        <li class="dropdown-header"> <!-- dropdown-no-link-->
+                                
+                                <strong id="user_name">openidm-admin</strong>
+                                
+                        </li>
+
+                        <li role="separator" class="divider"></li>
+
+                                <li>
+                                    <a href="https://kp.frdpcloud.com/admin/#" id="user_link" class="event-link" data-event="common.navigation.EVENT_SELF_SERVICE_CONTEXT">Self-Service</a>
+                                </li>
+                                <li>
+                                    <a href="https://kp.frdpcloud.com/admin/#logout/" id="logout_link">Log out</a>
+                                </li>
+                    </ul>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+</div>
+    <div id="content"><section>
+    <div class="fr-top-bar">
+        <div class="container">
+            <h3 class="fr-breadcrumb">
+                <a href="https://kp.frdpcloud.com/admin/#mapping/">Mappings</a>
+                <span class="seperator"></span>
+                <span>managedUser_systemKpexternalfrdsAccount</span>
+            </h3>
+        </div>
+    </div>
+
+    <div class="container">
+        <div id="mappingPolicyReadOnlyWarning" class="alert alert-warning " style="display:none;">
+            <i class="fa fa-exclamation-triangle"></i>
+            <strong role="heading"></strong>
+            <span class="message">
+                Current policy is read-only; <strong><a class="alert-link" href="https://kp.frdpcloud.com/admin/#">set a different policy</a></strong> to enable changes to the target system
+            </span>
+        </div>
+
+        <div class="page-header clearfix">
+            <span class="header-icon pull-left"><i class="fa fa-map-marker"></i></span>
+            <h4 class="page-type">Mapping Detail</h4>
+            <div class="page-header-button-group">
+                <button id="stopSyncButton" type="button" title="Cancel Reconciliation" class="btn btn-primary btn-actions" style="display:none;"><i class="fa fa-times-circle"></i> <span>Cancel Reconciliation</span></button>
+                <button id="syncNowButton" type="button" title="Reconcile" class="btn btn-primary btn-actions"><i class="fa fa-refresh"></i> <span>Reconcile</span></button>
+                <div class="btn-group">
+                    <button type="button" class="btn btn-default btn-secondary dropdown-toggle btn-actions" data-toggle="dropdown" aria-expanded="false">
+                        <i class="fa fa-ellipsis-v fa-lg"></i>
+                    </button>
+                    <ul class="dropdown-menu pull-right" role="menu">
+                        <li id="deleteMapping"><a href="https://kp.frdpcloud.com/admin/#"><i class="fa fa-times"></i>Delete</a></li>
+                    </ul>
+                </div>
+            </div>
+            <h1>managedUser_systemKpexternalfrdsAccount</h1>
+        </div>
+    </div>
+</section>
+<div class="container">
+    <div id="mappingConfigHolder">
+        <div class="mapping mapping-base-card">
+            <div class="panel panel-default">
+                <div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="connector source">
+                                <div class="panel-body">
+                                    <div class="media">
+                                        <span class="media-left" "="">
+                                        <div class="image circle">
+                                            <i class="mapping-icon left-icon fa fa-database"></i>
+                                        </div>
+                                        </span>
+                                        <div class="media-body">
+                                            <h4 class="connector-role">Source</h4>
+                                            <h3>managed/user</h3>
+                                            <p class="">managed</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="arrow">
+                                    <div class="arrow-inner">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="connector target">
+                                <div class="panel-body">
+                                    <div class="media">
+                                        <span class="media-left">
+                                            <div class="image circle">
+                                                <i class="mapping-icon left-icon fa fa-book"></i>
+                                            </div>
+                                        </span>
+                                        <div class="media-body">
+                                            <h4 class="connector-role">Target</h4>
+                                            <h3>system/kpExternalFRDS/account</h3>
+                                            <p>kpExternalFRDS</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel-footer">
+                        <div class="row no-gutters">
+                            <div class="col-sm-6">
+                                <div class="connector-info">
+                                    <div id="syncStatus" class="sync-status">
+                                        <i class="fa fa-caret-down"></i>
+                                        <span id="syncLabel">Completed: </span>
+                                        <span id="syncMessage">Last reconciled January 29, 2019 16:50</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="mapping-actions">
+                                    <div class="pull-right help-link">
+                                        <a href="https://backstage.forgerock.com/docs/idm/6.5/integrators-guide#sync-types" target="_blank">Help <i class="fa fa-question-circle"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="syncStatusDetails" style=""><div class="sync-details-container">
+    <div class="sync-results">
+        <ul class="list-group data-panel">
+            <li class="list-group-item no-sort">
+                <div class="toggle-data" id="showReconResults">
+                    <div class="pull-right toggle-arrow">
+                        <i class="fa fa-angle-up fa-lg"></i>
+                    </div>
+                    <div class="media-left">
+                        <h4>Reconciliation Results</h4>
+                    </div>
+                    <div class="data-panel-heading-stat text-success">
+                        <i class="fa fa-check-circle fa-2x"></i>
+                        <span class="display-number">59</span>
+                        <span>succeeded<span>
+                    </span></span></div>
+                    <div class="data-panel-heading-stat text-danger">
+                        <i class="fa fa-exclamation-circle fa-2x"></i>
+                        <span class="display-number">0</span>
+                        <span>failed<span>
+                    </span></span></div>
+                </div>
+
+            </li>
+        </ul>
+        <ul class="list-group data-panel">
+            <li class="list-group-item no-sort">
+                <div class="toggle-data" id="showDuration">
+                <div class="pull-right toggle-arrow">
+                    <i class="fa fa-angle-up fa-lg"></i>
+                </div>
+                    <div class="media-left">
+                        <h4>Duration</h4>
+                    </div>
+                    <div class="data-panel-heading-stat text-success">
+                        <span class="display-number">00:00:06:586</span>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <ul id="mappingTabs" class="nav nav-tabs"><li class="dropdown pull-right tabdrop hide"><a class="dropdown-toggle" data-toggle="dropdown" href="https://kp.frdpcloud.com/admin/#"><i class="icon-align-justify"></i> <b class="caret"></b></a><ul class="dropdown-menu"></ul></li>
+        <li id="propertiesTab" data-route-name="propertiesView" class="active"><a data-toggle="tab" href="https://kp.frdpcloud.com/admin/#mappingContent">Properties</a></li>
+        <li id="associationTab" data-route-name="associationView"><a data-toggle="tab" href="https://kp.frdpcloud.com/admin/#mappingContent">Association</a></li>
+        <li id="behaviorsTab" data-route-name="behaviorsView"><a data-toggle="tab" href="https://kp.frdpcloud.com/admin/#mappingContent">Behaviors</a></li>
+        <li id="scheduleTab" data-route-name="scheduleView"><a data-toggle="tab" href="https://kp.frdpcloud.com/admin/#mappingContent">Scheduling</a></li>
+        <li id="advancedTab" data-route-name="advancedView"><a data-toggle="tab" href="https://kp.frdpcloud.com/admin/#mappingContent">Advanced</a></li>
+    </ul>
+
+    <div class="tab-content" id="mappingContent"><div class="panel-collapse-group">
+
+    <div id="linkQualifierPanel" class="panel panel-default panel-collapse">
+        <div class="panel-heading" role="tab" id="linkQualifierHeading">
+            <a class="pull-right" href="https://backstage.forgerock.com/docs/idm/6.5/integrators-guide#linking-multiple-targets" target="_blank">Help <i class="fa fa-question-circle"></i></a>
+
+            <h4 class="panel-title">
+                <a data-toggle="collapse" href="https://kp.frdpcloud.com/admin/#linkQualifierBody" aria-expanded="false" aria-controls="linkQualifierHeading">Link Qualifier</a>
+            </h4>
+        </div>
+        <div id="linkQualifierBody" class="collapse " role="tabpanel" aria-labelledby="linkQualifierHeading">
+            <div id="mappingLinkQualifiers"><div class="panel-body">
+    <div role="tabpanel" class="tab-pane">
+        <p>Link one record in the source system to multiple records in the target system.</p>
+
+        <div class="btn-group btn-group-tabs" data-toggle="btns" id="linkQualifierTabs">
+            <a role="presentation" id="staticQualifierTab" class="btn btn-default active" href="https://kp.frdpcloud.com/admin/#staticLinkQualifier" aria-controls="home" data-toggle="tab">Static</a>
+            <a role="presentation" id="scriptQualifierTab" class="btn btn-default" href="https://kp.frdpcloud.com/admin/#scriptLinkQualifier" aria-controls="home" data-toggle="tab">Dynamic</a>
+        </div>
+
+        <div id="linkQualifierTabBodies" class="tab-content">
+            <div class="tab-pane active" id="staticLinkQualifier">
+                <p>Static lists will apply each qualifier to every source record.</p>
+                <div class="form-group addLinkQualifierContainer">
+                    <input style="width: 90%; display: none;" value="default" class="form-control static-link-qualifier selectized" autocomplete="off" type="text" placeholder="Link Qualifier" tabindex="-1"><div class="selectize-control form-control static-link-qualifier multi" style="width: 90%;"><div class="selectize-input items not-full has-options has-items"><div data-value="default" class="item">default</div><input type="text" autocomplete="off" tabindex="" style="width: 4px;"></div><div class="selectize-dropdown multi form-control static-link-qualifier" style="display: none; width: 100px; top: 0px; left: 0px;"><div class="selectize-dropdown-content"></div></div></div>
+                </div>
+            </div>
+            <div class="tab-pane" id="scriptLinkQualifier">
+                <p>Dynamic scripts may return different link qualifiers for each source record; they must return all valid link qualifiers when the returnAll global variable is true.</p>
+                <div id="scriptLinkQualifierBody"><div class="row event-hook-inline event-hook-window">
+    <form class="script-form">
+
+
+
+    <div class="script-body">
+    <div class="col-sm-12">
+        <div class="form-group event-hook-piece event-type">
+            <label class="control-label">Type</label>
+            <select class="script-type form-control">
+                <option value="text/javascript">Javascript</option>
+                <option value="groovy">Groovy</option>
+            </select>
+        </div>
+
+        <div class="panel-group script-accordions">
+            <div class="panel panel-default event-hook-piece inline-code">
+                <div class="panel-heading inline-heading">
+                    <label class="event-hook-title inline radio">
+                        <input type="radio" name="linkQualifierScript_scriptType" value="inline-code" class="radio inline collapsed" checked="">
+                        Inline Script
+                    </label>
+                </div>
+                <div class="panel-body">
+                    <div class="codemirror-holder col-sm-12">
+                        <textarea class="scriptSourceCode" placeholder="if(returnAll){ [&#39;test&#39;, &#39;admin&#39;] } else { /* script */ }" name="sourceCode" style="display: none;"></textarea><div class="CodeMirror cm-s-forgerock CodeMirror-empty" style="height: 240px;"><div style="overflow: hidden; position: relative; width: 3px; height: 0px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" style="position: absolute; padding: 0px; width: 1000px; height: 1em; outline: none;" tabindex="0"></textarea></div><div class="CodeMirror-vscrollbar" not-content="true"><div style="min-width: 1px;"></div></div><div class="CodeMirror-hscrollbar" not-content="true"><div style="height: 100%; min-height: 1px;"></div></div><div class="CodeMirror-scrollbar-filler" not-content="true"></div><div class="CodeMirror-gutter-filler" not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; min-width: 3px;"><div style="position: relative;"><div class="CodeMirror-lines"><div style="position: relative; outline: none;"><pre class="CodeMirror-placeholder" style="height: 0px; overflow: visible;">if(returnAll){ ['test', 'admin'] } else { /* script */ }</pre><div class="CodeMirror-measure"><div class="CodeMirror-linenumber CodeMirror-gutter-elt"><div>1</div></div></div><div class="CodeMirror-measure"><pre><span style="padding-right: 0.1px;"><span>​</span></span></pre></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors" style="visibility: hidden;"></div><div class="CodeMirror-code"></div></div></div></div></div><div style="position: absolute; height: 30px; width: 1px;"></div><div class="CodeMirror-gutters"><div class="CodeMirror-gutter CodeMirror-linenumbers" style="width: 0px;"></div></div></div></div>
+
+                        <span></span>
+                        <div class="validation-message"></div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel panel-default event-hook-piece file-code ">
+                <div class="panel-heading">
+                    <label class="event-hook-title inline radio">
+                        <input type="radio" class="radio inline" name="linkQualifierScript_scriptType" value="file-code">
+                        File Path
+                    </label>
+                </div>
+                <div>
+                    <div style="display:none;" class="panel-body">
+                        <div class="form-group has-feedback has-error">
+                            <input class="scriptFilePath form-control" autocomplete="off" type="text" name="fileName" data-validator-event="keyup blur focus check" data-validator="required" value="" data-validation-status="error" data-original-title="" title="">
+                            <span></span>
+                            <div class="validation-message"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <div class="col-sm-12 script-variables">
+        <label>
+            Add passed variables
+        </label>
+
+        <div class="panel-body">
+            <div class="passed-variables-holder">
+                <li style="display:none;" class="list-group-item empty-group-item">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <div class="passed-variable-name">
+                                <div class="form-group ">
+                                    <input type="text" placeholder="name" class="form-control" value="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-8 editor-body compactJSON">
+
+                        </div>
+                        <div class="col-sm-1">
+                            <div class="btn-group pull-right">
+                                <button class="btn btn-link btn-delete-attribute"><i class="fa fa-times"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+
+                <div class="col-sm-12 list-table">
+                    <ul class="list-group list-table-form">
+
+                    </ul>
+                </div>
+            </div>
+            <button type="button" field_type="baseContext" name="addPassedVariables" class="btn btn-primary add-btn add-passed-variables"><i class="fa fa-plus"></i><span>Add Variable</span></button>
+        </div>
+    </div>
+    
+</div></form>
+
+<div style="display:none" class="workflow-body"></div>
+</div>
+</div>
+
+                <div id="scriptLinkQualifierList" class="alert alert-success " style="display:none;">
+                    <i class="fa fa-check-circle-o"></i>
+                    <strong role="heading">Generated Link Qualifiers:</strong>
+                    <span class="message">
+                        
+                    </span>
+                </div>
+
+                <div id="badLinkQualifierScript" class="alert alert-danger " style="display:none;">
+                    <i class="fa fa-exclamation-circle"></i>
+                    <strong role="heading">Error</strong>
+                    <span class="message">
+                        
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="panel-footer clearfix">
+    <input type="button" class="btn linkQualifierSave btn-primary pull-right" value="Save">
+</div>
+</div>
+        </div>
+    </div>
+
+    <div id="attributesGridPanel" class="panel panel-connector panel-default panel-collapse">
+        <div class="panel-heading" role="tab" id="attributesHeading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" href="https://kp.frdpcloud.com/admin/#attributesBody" aria-expanded="true" aria-controls="attributesHeading" class="">Attributes Grid</a>
+            </h4>
+        </div>
+        <div id="attributesBody" class="collapse in" role="tabpanel" aria-labelledby="attributesHeading" aria-expanded="true" style="">
+            <div id="attributesGrid"><div class="panel-body">
+    <div class="toolbar clearfix">
+        <div class="btn-group pull-left">
+            <form action="https://kp.frdpcloud.com/admin/#" method="get">
+                <button type="submit" class="btn btn-primary add-property"><i class="fa fa-plus"></i>Add property</button>
+
+            </form>
+        </div>
+        <div class="tool-group-right">
+            <form class="form-inline" role="form">
+                <div class="form-group selectize-holder">
+                    <select style="width: 250px; display: none;" type="text" placeholder="Sample source preview" id="findSampleSource" class="form-control selectized" value="" tabindex="-1"><option value="" selected="selected"></option></select><div class="selectize-control form-control single" style="width: 250px;"><div class="selectize-input items not-full"><input type="text" autocomplete="off" tabindex="" placeholder="Sample source preview" style="width: 150px;"></div><div class="selectize-dropdown single form-control" style="display: none;"><div class="selectize-dropdown-content"></div></div></div>
+                </div>
+
+                <div class="form-group selectize-holder">
+                    <select style="width: 200px; display: none;" type="select" id="linkQualifierSelect" class="form-control selectized" tabindex="-1"><option value="" selected="selected"></option></select><div class="selectize-control form-control single" style="width: 200px;"><div class="selectize-input items not-full has-options"><input type="text" autocomplete="off" tabindex="" placeholder="Link Qualifier" style="width: 85px;"></div><div class="selectize-dropdown single form-control" style="display: none;"><div class="selectize-dropdown-content"></div></div></div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div>
+        <span id="allPropertiesMapped" style="display:none;">*All target properties have been mapped</span>
+        <div id="attributesGridHolder"><table class="table backgrid"><thead><tr><th class="renderable" data-field="source">source</th><th class="renderable" data-field=""></th><th class="renderable" data-field="target">target</th><th class="renderable" data-field=""></th><th class="renderable" data-field="smallScreenCell">smallScreenCell</th></tr></thead><tbody><tr><td class="renderable">
+<div class="property-container-parent">
+    <div class="property-container">
+        <div class="title">userName</div>
+        <div class="text-muted"></div>
+    </div>
+</div>
+</td><td class="properties-icon-container-parent renderable"><div class="properties-icon-container">
+        <span class="badge properties-badge" rel="tooltip" data-toggle="popover" data-placement="top" title="" data-original-title="">
+            <i class="fa fa-wrench"></i>
+            <div style="display:none;" class="tooltip-details">
+                Transformation script applied
+            <pre class="text-muted code-tooltip">"uid=" + source + "ou=people,dc=frdpcloud,dc=com"</pre>
+            </div>
+        </span>
+</div>
+</td><td class="renderable">
+<div class="property-container-parent">
+    <div class="property-container">
+        <div class="title">dn</div>
+        <div class="text-muted"></div>
+    </div>
+</div>
+</td><td class="renderable button-cell"><i class="button-0 fa fa-arrows grid-icon"></i><i class="button-1 fa fa-pencil grid-icon"></i><i class="button-2 fa fa-times grid-icon removeProperty"></i></td><td class="smallScreenCell renderable"><p class="pull-right show"><span class="button-cell"><i class="button-0 fa fa-arrows grid-icon"></i><i class="button-1 fa fa-pencil grid-icon"></i><i class="button-2 fa fa-times grid-icon removeProperty"></i></span></p><p><span>
+<div class="property-container-parent">
+    <div class="property-container">
+        <div class="title">userName</div>
+        <div class="text-muted"></div>
+    </div>
+</div>
+</span></p><p><span><div class="properties-icon-container">
+        <span class="badge properties-badge" rel="tooltip" data-toggle="popover" data-placement="top" title="" data-original-title="">
+            <i class="fa fa-wrench"></i>
+            <div style="display:none;" class="tooltip-details">
+                Transformation script applied
+            <pre class="text-muted code-tooltip">"uid=" + source + "ou=people,dc=frdpcloud,dc=com"</pre>
+            </div>
+        </span>
+</div>
+</span></p><p><span>
+<div class="property-container-parent">
+    <div class="property-container">
+        <div class="title">dn</div>
+        <div class="text-muted"></div>
+    </div>
+</div>
+</span></p></td></tr><tr><td class="renderable">
+<div class="property-container-parent">
+    <div class="property-container">
+        <div class="title"></div>
+        <div class="text-muted"></div>
+    </div>
+</div>
+</td><td class="properties-icon-container-parent renderable"><div class="properties-icon-container">
+        <span class="badge properties-badge" rel="tooltip" data-toggle="popover" data-placement="top" title="" data-original-title="">
+            <i class="fa fa-wrench"></i>
+            <div style="display:none;" class="tooltip-details">
+                Transformation script applied
+            <pre class="text-muted code-tooltip">source.givenName + ' ' + source.sn</pre>
+            </div>
+        </span>
+</div>
+</td><td class="renderable">
+<div class="property-container-parent">
+    <div class="property-container">
+        <div class="title">cn</div>
+        <div class="text-muted"></div>
+    </div>
+</div>
+</td><td class="renderable button-cell"><i class="button-0 fa fa-arrows grid-icon"></i><i class="button-1 fa fa-pencil grid-icon"></i><i class="button-2 fa fa-times grid-icon removeProperty"></i></td><td class="smallScreenCell renderable"><p class="pull-right show"><span class="button-cell"><i class="button-0 fa fa-arrows grid-icon"></i><i class="button-1 fa fa-pencil grid-icon"></i><i class="button-2 fa fa-times grid-icon removeProperty"></i></span></p><p><span>
+<div class="property-container-parent">
+    <div class="property-container">
+        <div class="title"></div>
+        <div class="text-muted"></div>
+    </div>
+</div>
+</span></p><p><span><div class="properties-icon-container">
+        <span class="badge properties-badge" rel="tooltip" data-toggle="popover" data-placement="top" title="" data-original-title="">
+            <i class="fa fa-wrench"></i>
+            <div style="display:none;" class="tooltip-details">
+                Transformation script applied
+            <pre class="text-muted code-tooltip">source.givenName + ' ' + source.sn</pre>
+            </div>
+        </span>
+</div>
+</span></p><p><span>
+<div class="property-container-parent">
+    <div class="property-container">
+        <div class="title">cn</div>
+        <div class="text-muted"></div>
+    </div>
+</div>
+</span></p></td></tr><tr><td class="renderable">
+<div class="property-container-parent">
+    <div class="property-container">
+        <div class="title">sn</div>
+        <div class="text-muted"></div>
+    </div>
+</div>
+</td><td class="properties-icon-container-parent renderable"><div class="properties-icon-container">
+</div>
+</td><td class="renderable">
+<div class="property-container-parent">
+    <div class="property-container">
+        <div class="title">sn</div>
+        <div class="text-muted"></div>
+    </div>
+</div>
+</td><td class="renderable button-cell"><i class="button-0 fa fa-arrows grid-icon"></i><i class="button-1 fa fa-pencil grid-icon"></i><i class="button-2 fa fa-times grid-icon removeProperty"></i></td><td class="smallScreenCell renderable"><p class="pull-right show"><span class="button-cell"><i class="button-0 fa fa-arrows grid-icon"></i><i class="button-1 fa fa-pencil grid-icon"></i><i class="button-2 fa fa-times grid-icon removeProperty"></i></span></p><p><span>
+<div class="property-container-parent">
+    <div class="property-container">
+        <div class="title">sn</div>
+        <div class="text-muted"></div>
+    </div>
+</div>
+</span></p><p><span><div class="properties-icon-container">
+</div>
+</span></p><p><span>
+<div class="property-container-parent">
+    <div class="property-container">
+        <div class="title">sn</div>
+        <div class="text-muted"></div>
+    </div>
+</div>
+</span></p></td></tr><tr><td class="renderable">
+<div class="property-container-parent">
+    <div class="property-container">
+        <div class="title">mail</div>
+        <div class="text-muted"></div>
+    </div>
+</div>
+</td><td class="properties-icon-container-parent renderable"><div class="properties-icon-container">
+</div>
+</td><td class="renderable">
+<div class="property-container-parent">
+    <div class="property-container">
+        <div class="title">mail</div>
+        <div class="text-muted"></div>
+    </div>
+</div>
+</td><td class="renderable button-cell"><i class="button-0 fa fa-arrows grid-icon"></i><i class="button-1 fa fa-pencil grid-icon"></i><i class="button-2 fa fa-times grid-icon removeProperty"></i></td><td class="smallScreenCell renderable"><p class="pull-right show"><span class="button-cell"><i class="button-0 fa fa-arrows grid-icon"></i><i class="button-1 fa fa-pencil grid-icon"></i><i class="button-2 fa fa-times grid-icon removeProperty"></i></span></p><p><span>
+<div class="property-container-parent">
+    <div class="property-container">
+        <div class="title">mail</div>
+        <div class="text-muted"></div>
+    </div>
+</div>
+</span></p><p><span><div class="properties-icon-container">
+</div>
+</span></p><p><span>
+<div class="property-container-parent">
+    <div class="property-container">
+        <div class="title">mail</div>
+        <div class="text-muted"></div>
+    </div>
+</div>
+</span></p></td></tr><tr><td class="renderable">
+<div class="property-container-parent">
+    <div class="property-container">
+        <div class="title">telephoneNumber</div>
+        <div class="text-muted"></div>
+    </div>
+</div>
+</td><td class="properties-icon-container-parent renderable"><div class="properties-icon-container">
+</div>
+</td><td class="renderable">
+<div class="property-container-parent">
+    <div class="property-container">
+        <div class="title">telephoneNumber</div>
+        <div class="text-muted"></div>
+    </div>
+</div>
+</td><td class="renderable button-cell"><i class="button-0 fa fa-arrows grid-icon"></i><i class="button-1 fa fa-pencil grid-icon"></i><i class="button-2 fa fa-times grid-icon removeProperty"></i></td><td class="smallScreenCell renderable"><p class="pull-right show"><span class="button-cell"><i class="button-0 fa fa-arrows grid-icon"></i><i class="button-1 fa fa-pencil grid-icon"></i><i class="button-2 fa fa-times grid-icon removeProperty"></i></span></p><p><span>
+<div class="property-container-parent">
+    <div class="property-container">
+        <div class="title">telephoneNumber</div>
+        <div class="text-muted"></div>
+    </div>
+</div>
+</span></p><p><span><div class="properties-icon-container">
+</div>
+</span></p><p><span>
+<div class="property-container-parent">
+    <div class="property-container">
+        <div class="title">telephoneNumber</div>
+        <div class="text-muted"></div>
+    </div>
+</div>
+</span></p></td></tr><tr><td class="renderable">
+<div class="property-container-parent">
+    <div class="property-container">
+        <div class="title">password</div>
+        <div class="text-muted"></div>
+    </div>
+</div>
+</td><td class="properties-icon-container-parent renderable"><div class="properties-icon-container">
+        <span class="badge properties-badge" rel="tooltip" data-toggle="popover" data-placement="top" title="" data-original-title="">
+            <i class="fa fa-wrench"></i>
+            <div style="display:none;" class="tooltip-details">
+                Transformation script applied
+            <pre class="text-muted code-tooltip">if (source != null) {
+	openidm.decrypt(source)
+}
+else {
+  return "Oracle123"
+}</pre>
+            </div>
+        </span>
+</div>
+</td><td class="renderable">
+<div class="property-container-parent">
+    <div class="property-container">
+        <div class="title">userPassword</div>
+        <div class="text-muted"></div>
+    </div>
+</div>
+</td><td class="renderable button-cell"><i class="button-0 fa fa-arrows grid-icon"></i><i class="button-1 fa fa-pencil grid-icon"></i><i class="button-2 fa fa-times grid-icon removeProperty"></i></td><td class="smallScreenCell renderable"><p class="pull-right show"><span class="button-cell"><i class="button-0 fa fa-arrows grid-icon"></i><i class="button-1 fa fa-pencil grid-icon"></i><i class="button-2 fa fa-times grid-icon removeProperty"></i></span></p><p><span>
+<div class="property-container-parent">
+    <div class="property-container">
+        <div class="title">password</div>
+        <div class="text-muted"></div>
+    </div>
+</div>
+</span></p><p><span><div class="properties-icon-container">
+        <span class="badge properties-badge" rel="tooltip" data-toggle="popover" data-placement="top" title="" data-original-title="">
+            <i class="fa fa-wrench"></i>
+            <div style="display:none;" class="tooltip-details">
+                Transformation script applied
+            <pre class="text-muted code-tooltip">if (source != null) {
+	openidm.decrypt(source)
+}
+else {
+  return "Oracle123"
+}</pre>
+            </div>
+        </span>
+</div>
+</span></p><p><span>
+<div class="property-container-parent">
+    <div class="property-container">
+        <div class="title">userPassword</div>
+        <div class="text-muted"></div>
+    </div>
+</div>
+</span></p></td></tr></tbody></table></div>
+    </div>
+
+    <div role="alert" class="changesPending alert alert-warning" style="display:none;">
+        <i class="fa fa-exclamation-circle"></i><strong>Warning</strong>
+        <span class="message">Changes pending.</span>
+    </div>
+</div>
+</div>
+        </div>
+    </div>
+
+    <div id="assignmentsPanel" class="panel panel-default panel-collapse">
+        <div class="panel-heading" role="tab" id="assignmentsHeading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" href="https://kp.frdpcloud.com/admin/#assignmentsBody" aria-expanded="false" aria-controls="roleEntitlementsHeading">Assignment</a>
+            </h4>
+        </div>
+        <div id="assignmentsBody" class="collapse" role="tabpanel" aria-labelledby="assignmentsHeading">
+            <div id="mappingAssignments"><div class="panel-body">
+        <div class="fr-no-data text-center well">
+            <h4 class="text-muted">No assignments attached to this mapping</h4>
+        </div>
+</div>
+</div>
+        </div>
+    </div>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+</div>
+<div id="popup">
+    <div id="popup-content" class="radious"></div>
+</div>
+
+<div id="dialog-background"></div>
+<div id="dialogs" style="display: none;"></div>
+
+<footer id="footer" class="footer"><div class="container">
+    <p>
+        <a href="mailto:%20info@forgerock.com">info@forgerock.com</a>
+            <br>
+            6.5.0 (revision: 7b41aaf)
+        <br>
+        Copyright 2010-18 ForgeRock AS.
+    </p>
+</div>
+</footer>
+<script type="text/javascript">
+    var require = {
+        urlArgs : "v=6.5.0",
+        deps : ['main']
+    };
+</script>
+<script data-main="main" src="./OpenIDM_files/requirejs-2.1.14-min.js"></script>
+
+
+<div class="modal-backdrop fade in" style="z-index: 1040;"></div><div class="modal bootstrap-dialog type-default fade size-wide in" tabindex="-1" role="dialog" aria-hidden="true" id="a75f540a-43d7-4a86-a707-ea7ca877eff5" aria-labelledby="a75f540a-43d7-4a86-a707-ea7ca877eff5_title" style="z-index: 1050; display: block; padding-left: 0px;"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><div class="bootstrap-dialog-header"><div class="bootstrap-dialog-close-button" style="display: none;"><button class="close">×</button></div><div class="bootstrap-dialog-title" id="a75f540a-43d7-4a86-a707-ea7ca877eff5_title">Target Property: dn</div></div></div><div class="modal-body"><div class="bootstrap-dialog-body"><div class="bootstrap-dialog-message"><form id="propertyMappingDialogForm">
+    <div id="mappingDialogTabs" role="tabpanel">
+        <ul class="nav nav-tabs" role="tablist"><li class="dropdown pull-right tabdrop hide"><a class="dropdown-toggle" data-toggle="dropdown" href="https://kp.frdpcloud.com/admin/#"><i class="icon-align-justify"></i> <b class="caret"></b></a><ul class="dropdown-menu"></ul></li>
+            <li role="presentation" class=""><a href="https://kp.frdpcloud.com/admin/#Property_List">Property List</a></li>
+            <li role="presentation" class="active"><a href="https://kp.frdpcloud.com/admin/#Transformation_Script" class="transform-script-tab-button">Transformation Script</a></li>
+            <li class="conditionScript" role="presentation"><a href="https://kp.frdpcloud.com/admin/#Condition_Script">Conditional Updates</a></li>
+            <li role="presentation"><a href="https://kp.frdpcloud.com/admin/#Default_Values">Default Values</a></li>
+        </ul>
+        <div class="tab-content">
+            <div role="tabpanel" class="tab-pane" id="Property_List">
+                <div class="row">
+                    <div class="col-sm-11">
+                        <label>Enter or select the source property; clear the text box to use the complete object.</label>
+                    </div>
+                    <div class="col-sm-5">
+                        <select id="sourcePropertySelect" name="source" class="form-control selectized" tabindex="-1" style="display: none;"><option value="userName" selected="selected">userName</option></select><div class="selectize-control form-control single"><div class="selectize-input items has-options full has-items"><div data-value="userName" class="item">userName</div><input type="text" autocomplete="off" tabindex="" style="width: 4px; opacity: 0; position: absolute; left: -10000px;"></div><div class="selectize-dropdown single form-control" style="display: none;"><div class="selectize-dropdown-content"><div data-value="_id" data-selectable="" class="option">_id</div><div data-value="accountStatus" data-selectable="" class="option">accountStatus</div><div data-value="address2" data-selectable="" class="option">address2</div><div data-value="authzRoles" data-selectable="" class="option">authzRoles</div><div data-value="city" data-selectable="" class="option">city</div><div data-value="consentedMappings" data-selectable="" class="option">consentedMappings</div><div data-value="country" data-selectable="" class="option">country</div><div data-value="description" data-selectable="" class="option">description</div><div data-value="effectiveAssignments" data-selectable="" class="option">effectiveAssignments</div><div data-value="effectiveRoles" data-selectable="" class="option">effectiveRoles</div><div data-value="givenName" data-selectable="" class="option">givenName</div><div data-value="kbaInfo" data-selectable="" class="option">kbaInfo</div><div data-value="lastSync" data-selectable="" class="option">lastSync</div><div data-value="mail" data-selectable="" class="option">mail</div><div data-value="manager" data-selectable="" class="option">manager</div><div data-value="password" data-selectable="" class="option">password</div><div data-value="postalAddress" data-selectable="" class="option">postalAddress</div><div data-value="postalCode" data-selectable="" class="option">postalCode</div><div data-value="preferences" data-selectable="" class="option">preferences</div><div data-value="reports" data-selectable="" class="option">reports</div><div data-value="roles" data-selectable="" class="option">roles</div><div data-value="sn" data-selectable="" class="option">sn</div><div data-value="stateProvince" data-selectable="" class="option">stateProvince</div><div data-value="telephoneNumber" data-selectable="" class="option">telephoneNumber</div><div data-value="userName" data-selectable="" class="option selected">userName</div></div></div></div>
+
+                        <div class="validation-message"></div>
+
+                    </div>
+                    <div class="col-sm-11">
+                        <div id="arrayAssociationTabs" style="display:none">
+                            <ul>
+                                <li><a href="https://kp.frdpcloud.com/admin/#arrayAssociations">Value Mapping</a></li>
+                                <li><a href="https://kp.frdpcloud.com/admin/#valuePrecedence">Value Precedence</a></li>
+                            </ul>
+                            <div class="arrayAssociations" id="arrayAssociations">
+                                <label>Target</label><label>Source</label>
+                                <ul></ul>
+                            </div>
+                            <div id="valuePrecedence">
+                                <label>Since the values mapped might result in multiple values, sort them here to establish which should take precedence (the first value matched will be used).</label>
+                                <ul></ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div role="tabpanel" class="tab-pane active" id="Transformation_Script">
+                <div class="row">
+                    <div class="col-sm-11">
+                        <label>Enter a transformation script for complex properties.</label>
+                    </div>
+                    <div class="col-sm-6">
+                        <label for="currentSourceDisplay">Current value for "source": </label>
+                        <span class="source-name text-muted">userName</span>
+
+                        <i style="display:none;" class="fa fa-eye details-tooltip" data-original-title="" title=""><pre style="display:none;" class="tooltip-details"></pre></i>
+                    </div>
+                    <div class="col-sm-12">
+                        <div id="transformationScriptHolder"><div class="row event-hook-inline event-hook-window">
+    
+
+
+
+    <div class="script-body">
+    <div class="col-sm-12">
+        <div class="form-group event-hook-piece event-type">
+            <label class="control-label">Type</label>
+            <select class="script-type form-control">
+                <option value="text/javascript">Javascript</option>
+                <option value="groovy">Groovy</option>
+            </select>
+        </div>
+
+        <div class="panel-group script-accordions">
+            <div class="panel panel-default event-hook-piece inline-code">
+                <div class="panel-heading inline-heading">
+                    <label class="event-hook-title inline radio">
+                        <input type="radio" name="transform_scriptType" value="inline-code" class="radio inline collapsed" checked="">
+                        Inline Script
+                    </label>
+                </div>
+                <div class="panel-body">
+                    <div class="codemirror-holder col-sm-12">
+                        <textarea class="scriptSourceCode" placeholder="source.givenName.toLowerCase() + &quot; .&quot; + source.sn.toLowerCase()" name="sourceCode" style="display: none;">"uid=" + source + "ou=people,dc=frdpcloud,dc=com"</textarea><div class="CodeMirror cm-s-forgerock CodeMirror-focused" style="height: 240px;"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 5px; left: 202px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" style="position: absolute; padding: 0px; width: 1000px; height: 1em; outline: none;" tabindex="0"></textarea></div><div class="CodeMirror-vscrollbar" not-content="true" style="min-width: 18px;"><div style="min-width: 1px; height: 0px;"></div></div><div class="CodeMirror-hscrollbar" not-content="true" style="min-height: 18px;"><div style="height: 100%; min-height: 1px; width: 0px;"></div></div><div class="CodeMirror-scrollbar-filler" not-content="true"></div><div class="CodeMirror-gutter-filler" not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 29px; min-width: 427px; margin-bottom: 0px; border-right-width: 30px; min-height: 22px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines"><div style="position: relative; outline: none;"><div class="CodeMirror-measure"><div class="CodeMirror-linenumber CodeMirror-gutter-elt"><div>1</div></div></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors" style=""><div class="CodeMirror-cursor" style="left: 172px; top: 0px; height: 14px;">&nbsp;</div></div><div class="CodeMirror-code"><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -29px; width: 29px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 20px;">1</div></div><pre><span style="padding-right: 0.1px;"><span class="cm-string">"uid="</span> <span class="cm-operator">+</span> <span class="cm-variable">source</span> <span class="cm-operator">+</span> <span class="cm-string">",ou=people,dc=frdpcloud,dc=com"</span></span></pre></div></div></div></div></div></div><div style="position: absolute; height: 30px; width: 1px; top: 52px;"></div><div class="CodeMirror-gutters" style="height: 268px;"><div class="CodeMirror-gutter CodeMirror-linenumbers" style="width: 28px;"></div></div></div></div>
+
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel panel-default event-hook-piece file-code ">
+                <div class="panel-heading">
+                    <label class="event-hook-title inline radio">
+                        <input type="radio" class="radio inline" name="transform_scriptType" value="file-code">
+                        File Path
+                    </label>
+                </div>
+                <div>
+                    <div style="display:none;" class="panel-body">
+                        <div class="form-group">
+                            <input class="scriptFilePath form-control" autocomplete="off" type="text" name="fileName" value="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <div class="col-sm-12 script-variables">
+        <label>
+            Add passed variables
+        </label>
+
+        <div class="panel-body">
+            <div class="passed-variables-holder">
+                <li style="display:none;" class="list-group-item empty-group-item">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <div class="passed-variable-name">
+                                <div class="form-group ">
+                                    <input type="text" placeholder="name" class="form-control" value="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-8 editor-body compactJSON">
+
+                        </div>
+                        <div class="col-sm-1">
+                            <div class="btn-group pull-right">
+                                <button class="btn btn-link btn-delete-attribute"><i class="fa fa-times"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+
+                <div class="col-sm-12 list-table">
+                    <ul class="list-group list-table-form">
+
+                    </ul>
+                </div>
+            </div>
+            <button type="button" field_type="baseContext" name="addPassedVariables" class="btn btn-primary add-btn add-passed-variables"><i class="fa fa-plus"></i><span>Add Variable</span></button>
+        </div>
+    </div>
+    
+</div>
+
+<div style="display:none" class="workflow-body"></div>
+</div>
+</div>
+                    </div>
+                </div>
+            </div>
+
+            <div role="tabpanel" class="tab-pane" id="Condition_Script">
+                <p>Define a declarative Condition Filter or a Script to update a property.</p>
+
+                <div class="btn-group" data-toggle="btns" id="conditionTabButtons" role="tablist">
+                    <a class="btn toggle-view-btn btn-default active" id="conditionalNone" href="https://kp.frdpcloud.com/admin/#noneTab" data-toggle="tab">No Condition</a>
+                    <a class="btn toggle-view-btn btn-default" id="conditionalFilter" href="https://kp.frdpcloud.com/admin/#conditionFilterTab" data-toggle="tab">Condition Filter</a>
+                    <a class="btn toggle-view-btn btn-default" id="conditionalScript" href="https://kp.frdpcloud.com/admin/#conditionScriptTab" data-toggle="tab">Script</a>
+                </div>
+
+                <div class="tab-content">
+                    <div id="noneTab" class="tab-none tab-pane active">
+
+                    </div>
+                    <div id="conditionFilterTab" class="conditionalFilter tab-pane">
+                        <div class="col-sm-12 filter-form form-horizontal" id="conditionFilterHolder">
+
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div id="conditionScriptTab" class="conditionalScript tab-pane">
+                        <div id="conditionScriptHolder"><div class="row event-hook-inline event-hook-window">
+    
+
+
+
+    <div class="script-body">
+    <div class="col-sm-12">
+        <div class="form-group event-hook-piece event-type">
+            <label class="control-label">Type</label>
+            <select class="script-type form-control">
+                <option value="text/javascript">Javascript</option>
+                <option value="groovy">Groovy</option>
+            </select>
+        </div>
+
+        <div class="panel-group script-accordions">
+            <div class="panel panel-default event-hook-piece inline-code">
+                <div class="panel-heading inline-heading">
+                    <label class="event-hook-title inline radio">
+                        <input type="radio" name="conditional_scriptType" value="inline-code" class="radio inline collapsed" checked="">
+                        Inline Script
+                    </label>
+                </div>
+                <div class="panel-body">
+                    <div class="codemirror-holder col-sm-12">
+                        <textarea class="scriptSourceCode" placeholder="" name="sourceCode" style="display: none;"></textarea><div class="CodeMirror cm-s-forgerock" style="height: 240px;"><div style="overflow: hidden; position: relative; width: 3px; height: 0px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" style="position: absolute; padding: 0px; width: 1000px; height: 1em; outline: none;" tabindex="0"></textarea></div><div class="CodeMirror-vscrollbar" not-content="true"><div style="min-width: 1px;"></div></div><div class="CodeMirror-hscrollbar" not-content="true"><div style="height: 100%; min-height: 1px;"></div></div><div class="CodeMirror-scrollbar-filler" not-content="true"></div><div class="CodeMirror-gutter-filler" not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; min-width: 3px;"><div style="position: relative;"><div class="CodeMirror-lines"><div style="position: relative; outline: none;"><div class="CodeMirror-measure"><div class="CodeMirror-linenumber CodeMirror-gutter-elt"><div>1</div></div></div><div class="CodeMirror-measure"><pre><span style="padding-right: 0.1px;"><span>​</span></span></pre></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors"></div><div class="CodeMirror-code"></div></div></div></div></div><div style="position: absolute; height: 30px; width: 1px;"></div><div class="CodeMirror-gutters"><div class="CodeMirror-gutter CodeMirror-linenumbers" style="width: 0px;"></div></div></div></div>
+
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel panel-default event-hook-piece file-code ">
+                <div class="panel-heading">
+                    <label class="event-hook-title inline radio">
+                        <input type="radio" class="radio inline" name="conditional_scriptType" value="file-code">
+                        File Path
+                    </label>
+                </div>
+                <div>
+                    <div style="display:none;" class="panel-body">
+                        <div class="form-group">
+                            <input class="scriptFilePath form-control" autocomplete="off" type="text" name="fileName" value="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <div class="col-sm-12 script-variables">
+        <label>
+            Add passed variables
+        </label>
+
+        <div class="panel-body">
+            <div class="passed-variables-holder">
+                <li style="display:none;" class="list-group-item empty-group-item">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <div class="passed-variable-name">
+                                <div class="form-group ">
+                                    <input type="text" placeholder="name" class="form-control" value="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-8 editor-body compactJSON">
+
+                        </div>
+                        <div class="col-sm-1">
+                            <div class="btn-group pull-right">
+                                <button class="btn btn-link btn-delete-attribute"><i class="fa fa-times"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+
+                <div class="col-sm-12 list-table">
+                    <ul class="list-group list-table-form">
+
+                    </ul>
+                </div>
+            </div>
+            <button type="button" field_type="baseContext" name="addPassedVariables" class="btn btn-primary add-btn add-passed-variables"><i class="fa fa-plus"></i><span>Add Variable</span></button>
+        </div>
+    </div>
+    
+</div>
+
+<div style="display:none" class="workflow-body"></div>
+</div>
+</div>
+                    </div>
+                </div>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="Default_Values">
+                <div class="row list-table">
+                    <div class="col-sm-12">
+                        <label>Set a default value for this property mapping.</label>
+                    </div>
+                    <div class="col-sm-12 list-group">
+                        <div id="defaultPropertyValue" class="pull-left attribute-value compactJSON"><div data-schemaid="root" data-schematype="string" data-schemapath="root"><div class=" form-group"><label class=" control-label" for="0-root">root</label><input type="text" class="form-control" name="root" id="0-root"></div><div></div></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div role="alert" class="encrypted-property-warning alert alert-warning hidden" style="">
+    <i class="fa fa-exclamation-circle"></i><strong>Encrypted Property</strong>
+    <a class="apply-default-encryption-transformer btn">
+        <span class="message">Create default transformation behavior</span>
+    </a>
+</div>
+</form></div></div></div><div class="modal-footer" style="display: block;"><div class="bootstrap-dialog-footer"><div class="bootstrap-dialog-footer-buttons"><button class="btn btn-default" id="scriptDialogCancel">Cancel</button><button class="btn btn-primary" id="scriptDialogUpdate">Save</button></div></div></div></div></div></div></body></html>
