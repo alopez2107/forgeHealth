@@ -53,17 +53,17 @@ export default {
     }
 
     .kaiser-card {
-        background: #0140c1;
+        background: #e6f2ff;
     }
 
     .kaiser-title-dark-bg {
-        color: #e8e8e8;
+        color: #0140c1;
         font-family: Tahoma;
         font-size: medium;
     }
 
     .kaiser-text-dark-bg {
-        color: #e8e8e8;
+        color: #0140c1;
         font-family: Verdana;
         font-size: small;
     }

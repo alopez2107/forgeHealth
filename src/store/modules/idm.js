@@ -27,6 +27,10 @@ const state = {
         {
             value: "required",
             display: "Required"
+        },
+        {
+            value: "passwordless",
+            display: "Passwordless"
         }
     ],
     mfaChoiceValues: [
@@ -41,6 +45,14 @@ const state = {
         {
             value: "never",
             display: "Never"
+        },
+        {
+            value: "required",
+            display: "Required"
+        },
+        {
+            value: "passwordless",
+            display: "Passwordless"
         }
     ],
     mfaPrefsValues: [
@@ -62,7 +74,7 @@ const state = {
         },
         {
             value: "nopassword",
-            display: "Face (using NoPassword App)"
+            display: "Use the NoPassword App"
         }
     ],
     selectedMFAChoice: null,

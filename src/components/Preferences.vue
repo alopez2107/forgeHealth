@@ -26,7 +26,7 @@
                         <button type="button" class="btn kaiser-btn-primary" @click="saveProfileChanges">Save</button>
                     </div>
                     <div class="col-sm-4">
-                        <router-link to="/kpdemoapp" class="btn btn-outline-secondary">Cancel</router-link>
+                        <router-link to="/fhdemoapp" class="btn btn-outline-secondary">Cancel</router-link>
                     </div>
                 </div>
             </form>

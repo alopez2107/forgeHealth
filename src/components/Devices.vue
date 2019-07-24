@@ -14,7 +14,7 @@
             <div class="row separator">
                 <h2> </h2>
             </div>
-            <div class="row">
+            <!-- div class="row">
                 <h4 class="infoText">Trusted devices</h4>
             </div>
             <div class="row">
@@ -22,7 +22,7 @@
                     <DeviceProfileItem v-if="userTrustedDevices != null && userTrustedDevices.length > 0" v-for="device in userTrustedDevices" :device="device" :key="device.id" :deviceType="deviceTypes.trusted"></DeviceProfileItem>
                     <p v-else class="infoText">No Trusted Devices Found.</p>
                 </ul>
-            </div>
+            </div -->
             <div class="row">
                 <h4 class="infoText">PUSH devices</h4>
             </div>

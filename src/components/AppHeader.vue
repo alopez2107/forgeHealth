@@ -1,11 +1,11 @@
 <template>
     <div class="container kaiser-container">
-        <div class="row align-items-center">
-            <div class="col-md-5 d-flex justify-content-center">
-                <img class="haderImg" src="../assets/forgehealth.png"/>
-            </div>
-            <div class="col-md-7 d-flex justify-content-center">
-                <h2 class="apptitle">FORGE Health Demo Application</h2>
+        <div class="row" style="height: 30px;">
+
+        </div>
+        <div class="row align-items-start">
+            <div class="col-lg-12 justify-content-start padding">
+                <img src="../assets/forgehealth.png" style="height: 50px;width: 360px;">
             </div>
         </div>
         <div class="separator">
@@ -110,7 +110,7 @@
     }
 
     .kaiser-container {
-        background-color: #ffffff;
+        background-color: #e6f2ff;
         width: 100%;
         height: 33vh;
     }

@@ -1,7 +1,7 @@
 <template>
     <div class="row">
         <div class="card kaiser-card" style="width: 23rem;">
-            <img src="../assets/userProfileHdrPic.jpg" class="card-img-top">
+            <img src="../assets/user-profile.png" class="card-img-top">
             <div class="card-body">
                 <h5 class="kaiser-title-dark-bg">User Profile</h5>&nbsp;&nbsp;&nbsp;
                 <p class="kaiser-text-dark-bg">You can modify your profile information here.</p>
@@ -30,7 +30,7 @@
                         <button type="button" class="btn kaiser-btn-primary" @click="saveProfileChanges">Save</button>
                     </div>
                     <div class="col-md-6">
-                        <router-link to="/kpdemoapp" class="btn btn-outline-secondary">Cancel</router-link>
+                        <router-link to="/fhdemoapp" class="btn btn-outline-secondary">Cancel</router-link>
                     </div>
                 </div>
             </form>
